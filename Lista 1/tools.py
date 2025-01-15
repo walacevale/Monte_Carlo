@@ -71,3 +71,26 @@ def media(x):
         Média dos valores de x.
     """
     return sum(x)/len(x)
+
+
+def desvio_padrao(x):
+    """
+    Calcula o desvio padrão de uma lista de números em 1D.
+    
+    Parâmetros:
+    ----------
+    x : lista ou array
+        Dados de entrada para o cálculo do desvio padrão.
+    
+    Retorna:
+    -------
+    desvio_padrao : float
+        Desvio padrão dos valores de x.
+    """
+    media_x = media(x)
+    return np.sqrt(sum((x-media_x)**2)/len(x))
+
+
+
+def V(x):
+    return x**4 - 4*x**2
