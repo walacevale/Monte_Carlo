@@ -59,6 +59,11 @@ axes.formatter.use_mathtext : True
 mathtext.fontset : cm
 font.weight: bold
 
-# Use LaTeX for math formatting
-text.usetex : True
-text.latex.preamble : \usepackage{amsmath} \usepackage{amssymb} \boldmath
+
+# Font settings to support accents
+font.family : DejaVu Serif
+mathtext.fontset : dejavusans
+axes.formatter.use_mathtext : True
+
+# Disable LaTeX usage
+text.usetex : False
