@@ -1,9 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-
-import numpy as np
-
 def histograma(dados, num_bins=50, normalizar=False):
     """
     Calcula o histograma de uma amostra de dados e retorna as frequências e os limites dos intervalos (bins).
